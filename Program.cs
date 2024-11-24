@@ -41,7 +41,7 @@ namespace JsonSerialization
                 Output0Buffer.acdautoanswer = jsn.AcdAutoAnswer;
                 Output0Buffer.selfuri = jsn.SelfUri;
 
-                Console.WriteLine("test test test");
+                Console.WriteLine("Import successful");
             }
         }
     }
