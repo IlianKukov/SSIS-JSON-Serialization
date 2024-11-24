@@ -13,7 +13,7 @@ namespace JsonSerialization
     {
         static void Main(string[] args)
         {
-            string jsonFileContent = File.ReadAllText(@"C:\Users\ikuko001\Desktop\SSMS GERMANY\Klarna\test.json");
+            string jsonFileContent = File.ReadAllText(@"C:\SSMS\data.json");
             JavaScriptSerializer js = new JavaScriptSerializer();
             js.MaxJsonLength = int.MaxValue;
 
